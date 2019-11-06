@@ -1,0 +1,38 @@
+ul {
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	float: left
+}
+
+ul li.white {
+	height: 100%;
+	width: 14px;
+	z-index: 1;
+	background-color: white;
+	border: solid 1px black;
+}
+
+ul li.white:active {
+	background-color: orange;
+}
+
+ul li.black {
+	height: 50%;
+	width: 7px;
+	margin: 0 -5px 0 -5px;
+	z-index: 2;
+	border: 1px solid #000;
+	background-color: black;
+}
+
+ul li.black:active {
+	background-color: green;
+}

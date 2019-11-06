@@ -1,0 +1,7 @@
+<div>
+	<oscillator *ngFor="let oscillator of oscillators" [oscillator]="oscillator"
+				(click)="activeOscillator = oscillator"></oscillator>
+</div>
+<div>
+	<button (click)="addOsc()">Add oscillator</button>
+</div>

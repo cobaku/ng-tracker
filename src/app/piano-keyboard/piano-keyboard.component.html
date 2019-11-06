@@ -1,0 +1,3 @@
+<ul>
+	<li *ngFor="let key of keys" class="key" [class.black]="key?.isBlack" [class.white]="!key?.isBlack" (mouseup)="onUp()" (mousedown)="onDown(key)"></li>
+</ul>
